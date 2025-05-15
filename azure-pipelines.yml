@@ -9,7 +9,7 @@ pr: none
 jobs:
   - job:
     pool:
-      vmImage: ubuntu-latest
+      name: 'Default'
     displayName: 'Run a one-line script'
     steps:
       - task: Bash@3
